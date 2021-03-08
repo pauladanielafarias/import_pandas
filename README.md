@@ -1,4 +1,4 @@
-# Installing python packages
+# Installing python libraries
 
 ## 1. Installing os-sys
 [os-sys 2.1.4](https://pypi.org/project/os-sys/)
