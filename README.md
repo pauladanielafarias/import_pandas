@@ -1,7 +1,7 @@
 # Installing python libraries
 
 ## 1. Installing os-sys
-[os-sys 2.1.4](https://pypi.org/project/os-sys/)
+[os-sys](https://pypi.org/project/os-sys/)
 
 ```
 pip install os-sys
@@ -40,7 +40,7 @@ This command downloads:
 - matplotlib (will need the requirement: text-editor)
 
 ## 2. Installing wget
-[wget 3.2](https://pypi.org/project/wget/)
+[wget](https://pypi.org/project/wget/)
 
 ```
 pip install wget
@@ -48,7 +48,7 @@ pip install wget
 
 
 ## 3. Installing pandas
-[pandas 1.2.3](https://pypi.org/project/pandas/)
+[pandas](https://pypi.org/project/pandas/)
 
 ```
 pip install pandas
@@ -56,15 +56,26 @@ pip install pandas
 
 
 ## 4. Installing matplotlib
-[matplotlib 3.3.4](https://pypi.org/project/matplotlib/)
+[matplotlib](https://pypi.org/project/matplotlib/)
 
 ```
 pip install matplotlib
 ```
 
 
+## 5. Installing tensorflow
+[tensorflow](https://pypi.org/project/tensorflow/)
 
-List installed packages, including editables: 
+```
+# Requires the latest pip
+pip install --upgrade pip
+
+# Current stable release for CPU and GPU
+pip install tensorflow
+```
+
+
+List installed packages in your machine, including editables: 
 [pip documentation - pip list](https://pip.pypa.io/en/stable/reference/pip_list/)
 
 ```
