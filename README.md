@@ -62,8 +62,15 @@ pip install pandas
 pip install matplotlib
 ```
 
+## 5. Installing numpy
+[numpy](https://pypi.org/project/numpy/)
 
-## 5. Installing tensorflow
+```
+pip install numpy
+```
+
+
+## 6. Installing tensorflow
 [tensorflow](https://pypi.org/project/tensorflow/)
 
 ```
