@@ -1,6 +1,6 @@
-# Installing python libraries
+# Installing python packages and libraries
 
-- Before installing any package, make sure that your pip version is up-to-date. 
+- Before installing any package or library, make sure that your pip version is up-to-date. 
 
 ```
 pip install --upgrade pip
