@@ -101,7 +101,7 @@ pip install numpy
 pip install tensorflow
 ```
 
-## 7. Installing 
+## 7. Installing OpenCV
 [OpenCV](https://pypi.org/project/mtcnn-opencv/)
 
 ```
