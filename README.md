@@ -1,5 +1,29 @@
 # Installing python libraries
 
+- Before installing any package, make sure that your pip version is up-to-date. 
+
+´´´
+pip install --upgrade pip
+pip -V
+´´´
+
+- You can list all the installed packages in your machine, including editables: 
+
+```
+pip list
+```
+[pip documentation - pip list](https://pip.pypa.io/en/stable/reference/pip_list/)
+
+- If you want to know more about an installed package in your machine:
+
+```
+pip show pkg-name
+```
+
+*_Instead of ´´´pkg-name´´´ type the name of the package you want to show._
+
+# Some Python libraries and packages:
+
 ## 1. Installing os-sys
 [os-sys](https://pypi.org/project/os-sys/)
 
@@ -74,10 +98,6 @@ pip install numpy
 [tensorflow](https://pypi.org/project/tensorflow/)
 
 ```
-# Requires the latest pip
-pip install --upgrade pip
-
-# Current stable release for CPU and GPU
 pip install tensorflow
 ```
 
@@ -93,18 +113,3 @@ Usage:
 ```
 import cv2
 ```
-
-List installed packages in your machine, including editables: 
-[pip documentation - pip list](https://pip.pypa.io/en/stable/reference/pip_list/)
-
-```
-pip list
-```
-
-Show the version of the each installed package in your machine:
-
-```
-pip show pkg-name
-```
-
-_Instead of ´´´pkg-name´´´ type the name of the package you want to show._
