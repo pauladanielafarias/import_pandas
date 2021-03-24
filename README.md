@@ -85,13 +85,13 @@ pip install tensorflow
 [OpenCV](https://pypi.org/project/mtcnn-opencv/)
 
 ```
+#requires numpy
 pip3 install opencv-python
 ```
 
 Usage:
 ```
 import cv2
-from mtcnn_cv2 import MTCNN
 ```
 
 List installed packages in your machine, including editables: 
