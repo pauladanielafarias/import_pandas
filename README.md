@@ -81,6 +81,18 @@ pip install --upgrade pip
 pip install tensorflow
 ```
 
+## 7. Installing 
+[OpenCV](https://pypi.org/project/mtcnn-opencv/)
+
+```
+pip3 install opencv-python
+```
+
+Usage:
+```
+import cv2
+from mtcnn_cv2 import MTCNN
+```
 
 List installed packages in your machine, including editables: 
 [pip documentation - pip list](https://pip.pypa.io/en/stable/reference/pip_list/)
@@ -89,3 +101,10 @@ List installed packages in your machine, including editables:
 pip list
 ```
 
+Show the version of the each installed package in your machine:
+
+```
+pip show pkg-name
+```
+
+_Instead of ´´´pkg-name´´´ type the name of the package you want to show._
