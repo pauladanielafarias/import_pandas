@@ -22,7 +22,7 @@ pip show pkg-name
 
 *_Instead of ´´´pkg-name´´´ type the name of the package you want to show._
 
-# Some Python libraries and packages:
+# Some Python packages and libraries:
 
 ## 1. Installing os-sys
 [os-sys](https://pypi.org/project/os-sys/)
