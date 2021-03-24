@@ -106,6 +106,7 @@ pip install tensorflow
 
 ```
 #requires numpy: pip install numpy
+
 pip install opencv-python
 ```
 [OpenCV Documentation](https://docs.opencv.org/master/)
