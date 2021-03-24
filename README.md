@@ -2,10 +2,10 @@
 
 - Before installing any package, make sure that your pip version is up-to-date. 
 
-´´´
+```
 pip install --upgrade pip
 pip -V
-´´´
+```
 
 - You can list all the installed packages in your machine, including editables: 
 
