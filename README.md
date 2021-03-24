@@ -85,8 +85,8 @@ pip install tensorflow
 [OpenCV](https://pypi.org/project/mtcnn-opencv/)
 
 ```
-#requires numpy
-pip3 install opencv-python
+#requires numpy: pip install numpy
+pip install opencv-python
 ```
 
 Usage:
