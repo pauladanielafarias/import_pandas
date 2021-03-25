@@ -114,3 +114,16 @@ Usage:
 ```
 import cv2
 ```
+
+## 8. Installing fuzzywuzzy
+[fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/)
+
+```
+pip install fuzzywuzzy
+```
+Usage:
+
+```
+ from fuzzywuzzy import fuzz
+ from fuzzywuzzy import process
+ ```
