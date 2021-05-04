@@ -4,7 +4,7 @@
 
 ```
 pip install --upgrade pip
-pip -V
+pip --version
 ```
 
 - You can list all the installed packages in your machine, including editables: 
