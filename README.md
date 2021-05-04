@@ -32,36 +32,44 @@ pip install os-sys
 ```
 This command downloads:
 - os-sys
-- sqlalchemy
-- numpy
-- pytest
-- sqlparse
-- extract-zip
-- requests-download
-- Django
-- progressbar
-- netifaces
-- cefpython3
-- mathparse
-- pyyaml
-- PyInstaller
-- spacy
-- os-sys-php
-- Eel
-- tuspy
-- nltk
-- selenium
-- pyvalid
-- jupyter
-- pypiwin32
-- auto-py-to-exe
-- geocoder
-- beautifulsoup4
-- pyspeedtest
-- wifi
-- psutil
-- progress
-- matplotlib (will need the requirement: text-editor)
+  - pandas
+  - mysql-connector
+  - pyyaml
+  - progressbar
+  - mathparse
+  - pygubu
+  - PyInstaller
+  - pint
+  - cefpython3
+  - tqdm
+  - pytest
+  - wifi
+
+
+  - sqlalchemy
+  - numpy
+  - sqlparse
+  - extract-zip
+  - requests-download
+  - Django
+  - progressbar
+  - netifaces
+  - spacy
+  - os-sys-php
+  - Eel
+  - tuspy
+  - nltk
+  - selenium
+  - pyvalid
+  - jupyter
+  - pypiwin32
+  - auto-py-to-exe
+  - geocoder
+  - beautifulsoup4
+  - pyspeedtest
+  - psutil
+  - progress
+  - matplotlib (will need the requirement: text-editor)
 
 ## 2. Installing wget
 [wget](https://pypi.org/project/wget/)
