@@ -20,7 +20,7 @@ pip list
 pip show pkg-name
 ```
 
-*_Instead of ´´´pkg-name´´´ type the name of the package you want to show._
+_Instead of ```pkg-name``` type the name of the package you want to show._
 
 # Some Python packages and libraries:
 
@@ -44,32 +44,24 @@ This command downloads:
   - tqdm
   - pytest
   - wifi
-
-
-  - sqlalchemy
-  - numpy
-  - sqlparse
-  - extract-zip
-  - requests-download
-  - Django
-  - progressbar
   - netifaces
-  - spacy
-  - os-sys-php
-  - Eel
-  - tuspy
-  - nltk
-  - selenium
-  - pyvalid
-  - jupyter
-  - pypiwin32
-  - auto-py-to-exe
-  - geocoder
-  - beautifulsoup4
+  - extract-zip
   - pyspeedtest
-  - psutil
+  - pypiwin32
+  - geocoder
+  - os-sys-php
+  - nltk
   - progress
+  - auto-py-to-exe
+  - pythonGui
+  - beautifulsoup4
   - matplotlib (will need the requirement: text-editor)
+  - numpy
+  - pytz
+  - sqlalchemy
+  - requests
+  - os-sys
+  - webview
 
 ## 2. Installing wget
 [wget](https://pypi.org/project/wget/)
@@ -135,3 +127,12 @@ Usage:
  from fuzzywuzzy import fuzz
  from fuzzywuzzy import process
  ```
+ 
+ ## 9. Installing Jupyter Notebook & Jupyter Lab
+[jupyter](https://jupyter.readthedocs.io/en/latest/install/notebook-classic.html)
+[jupyterlab](https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html)
+
+```
+pip install jupyter
+pip install jupyterlab
+```
