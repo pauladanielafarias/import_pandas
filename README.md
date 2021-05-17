@@ -22,6 +22,12 @@ pip show pkg-name
 
 _Instead of ```pkg-name``` type the name of the package you want to show._
 
+If you need to install pip manually (you also need [python3](https://www.python.org/downloads/)):
+
+1. Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) or use curl: ``` curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py ```
+2. Run the following command in the folder where you have downloaded get-pip.py: ```python3 get-pip.py```
+
+
 # Some Python packages and libraries:
 
 ## 1. Installing os-sys
