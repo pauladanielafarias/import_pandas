@@ -33,8 +33,8 @@ pip --version
 or
 
 ```
-python -m pip install -U pip
--m pip --version
+python3 -m pip install -U pip
+python3 -m pip --version
 ```
 
 - You can list all the installed packages in your machine, including editables: 
