@@ -1,10 +1,40 @@
-# Installing python packages and libraries
+# 1. Installing Python 3
+
+### Installing on Mac OS X
+
+1. Install [Homebrew](https://brew.sh/#install)
+
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2. Install Python 3
+
+```
+$ brew install python
+```
+
+3. See the version to check that Python 3 is installed
+
+```
+$ python3 --version
+```
+
+
+# 2. Installing Python packages and libraries
 
 - Before installing any package or library, make sure that your pip version is up-to-date. 
 
 ```
 pip install --upgrade pip
 pip --version
+```
+
+or
+
+```
+python -m pip install -U pip
+-m pip --version
 ```
 
 - You can list all the installed packages in your machine, including editables: 
@@ -29,6 +59,7 @@ _Instead of ```pkg-name``` type the name of the package you want to show._
 
 
 # Some Python packages and libraries:
+Sometimes ```pip``` is invoked by an old script wrapper, to avoid this problem you can invoke Python with ```-m pip``` instead of running ```pip``` directly.
 
 ## 1. Installing os-sys
 [os-sys](https://pypi.org/project/os-sys/)
